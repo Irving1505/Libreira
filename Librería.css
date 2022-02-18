@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background:gray ;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.Categorias ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style-position:inside;
+}
+
+.Recomendado ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style-position:inside;
+}
+
+.Contenedor{
+	width: 90%;
+	margin: auto;
+}
+
+.Categorias{
+	width: 90%;
+	margin: auto;
+}
+
+.Logo {
+font-size:40px ;
+font-family:'Bebas Neue' , cursive;
+font-weight: normal;
+color:purple  ;
+text-decoration: none;
+
+}
+
+.Logo a{
+font-size:60px ;
+font-family:'Bebas Neue', cursive;
+font-weight: normal;
+color:purple ;
+text-decoration: none;
+
+}
+
+header{
+	padding: 30px,0;
+}
+
+header div.Contenedor{
+	display: flex;
+	justify-content:space-between ;
+	align-items: center;
+}
+
+header div.Categoria{
+	display: flex;
+	justify-content:space-between ;
+	
+}
+
+header nav a{
+	color: purple;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover{
+	color: #FFF;
+}
+
+main div.Contenedor{
+	display: flex;
+	justify-content:space-between ;
+	align-items: center;
+}
+
+.Novedades{
+width:1100px;
+height: 400px;
+}
+
+.MasLeido{
+width:1100px;
+height: 400px;
+}
+
+.Recomendado{
+width:1100px;
+height: 400px;
+}
+
+.Terror{
+width:1000px;
+height: 300px;
+text-decoration: none;
+color:black  ;
+}
+
+.Terror a{
+text-decoration: none;
+color:black  ;
+}
+
+.Superacion{
+width:1000px;
+height: 300px;
+text-decoration: none;
+}
+
+.Superacion a{
+text-decoration: none;
+color:black  ;
+}
+
+.Aventuras{
+width:1000px;
+height: 300px;
+text-decoration: none;
+}
+
+.Aventuras a{
+text-decoration: none;
+color:black  ;
+}
+
+.Biografias{
+width:1000px;
+height: 300px;
+text-decoration: none;
+}
+
+.Biografias a{
+text-decoration: none;
+color:black  ;
+}
+
+.Romance{
+width:1000px;
+height: 300px;
+text-decoration: none;
+}
+
+.Romance a{
+text-decoration: none;
+color:black  ;
+}
+
+.Carrusel{
+width: 65%;
+margin: 10px;
+}
+
+.Carrusel ul{
+	display: flex;
+	padding: 0;
+	width: 300%;
+	animation: cambio 20s infinite alternate linear;
+
+}
+
+.Carrusel li{
+	width: 100%;
+	list-style: none;
+}
+
+.Carrusel img{
+	width: 100%;
+}
+
+@keyframes cambio{
+
+ 	0%{margin-left:0 ;}
+ 	20%{margin-left:0;}
+
+ 	25%{margin-left: -100%;}
+ 	45%{margin-left: -100%;}
+
+ 	50%{margin-left: -150%;}
+ 	70%{margin-left: -150%;}
+
+ 	75%{margin-left: -200%;}
+ 	100%{margin-left: -200%;}
+ }
+
+ .Container{
+ 	width:100% ;
+ 	height:100vh ;
+ 	display:flex ;
+ 	text-decoration: none;
+ 	font-size:30px ;
+font-family:'Bebas Neue', cursive;
+font-weight: normal;
+color:purple ;
+ }
+
+ .Container a{
+ 	text-decoration: none;
+ 	font-size:30px ;
+font-family:'Bebas Neue', cursive;
+font-weight: normal;
+color:purple ;
+ }
